@@ -1,0 +1,286 @@
+window.PORTFOLIO_PROJECTS = [
+  {
+    "title": "SempApp",
+    "category": "social",
+    "images": [
+      "p05-01.jpg",
+      "p05-02.jpg",
+      "p05-03.jpg",
+      "p05-04.jpg"
+    ],
+    "desc": "Comunicação digital para facturação e negócios.",
+    "kind": "Série de peças"
+  },
+  {
+    "title": "Sonangol",
+    "category": "social",
+    "images": [
+      "p05-05.jpg",
+      "p05-06.jpg",
+      "p05-07.jpg",
+      "p05-08.jpg"
+    ],
+    "desc": "Peças de comunicação institucional e de marca.",
+    "kind": "Série de peças"
+  },
+  {
+    "title": "Comunicação empresarial",
+    "category": "corporate",
+    "images": [
+      "p06-01.jpg",
+      "p06-02.jpg",
+      "p06-03.jpg",
+      "p06-04.jpg"
+    ],
+    "desc": "Conjunto de peças corporativas apresentado no portfólio.",
+    "kind": "Série de peças"
+  },
+  {
+    "title": "Catoca",
+    "category": "social",
+    "images": [
+      "p06-05.jpg",
+      "p06-06.jpg",
+      "p06-07.jpg",
+      "p06-08.jpg"
+    ],
+    "desc": "Comunicação visual institucional e corporativa.",
+    "kind": "Série de peças"
+  },
+  {
+    "title": "ENDE",
+    "category": "social",
+    "images": [
+      "p07-01.jpg",
+      "p07-02.jpg",
+      "p07-03.jpg",
+      "p07-04.jpg"
+    ],
+    "desc": "Conteúdos sobre energia, serviços e proximidade.",
+    "kind": "Série de peças"
+  },
+  {
+    "title": "Água Pura",
+    "category": "social",
+    "images": [
+      "p07-05.jpg",
+      "p07-06.jpg",
+      "p07-07.jpg",
+      "p07-08.jpg"
+    ],
+    "desc": "Campanha de produto e comunicação de consumo.",
+    "kind": "Série de peças"
+  },
+  {
+    "title": "Fix Home",
+    "category": "social",
+    "images": [
+      "p08-01.jpg",
+      "p08-02.jpg",
+      "p08-03.jpg",
+      "p08-04.jpg"
+    ],
+    "desc": "Serviços domésticos e soluções para o lar.",
+    "kind": "Série de peças"
+  },
+  {
+    "title": "Marca alimentar",
+    "category": "social",
+    "images": [
+      "p08-05.jpg",
+      "p08-06.jpg",
+      "p08-07.jpg",
+      "p08-08.jpg"
+    ],
+    "desc": "Comunicação de refeições e entregas.",
+    "kind": "Série de peças"
+  },
+  {
+    "title": "Ezeisaac — assinatura visual",
+    "category": "branding",
+    "images": [
+      "p09-01.jpg",
+      "p09-07.jpg",
+      "p09-11.jpg"
+    ],
+    "desc": "Explorações da assinatura visual.",
+    "kind": "Identidade visual"
+  },
+  {
+    "title": "Gallo Business",
+    "category": "branding",
+    "images": [
+      "p09-03.jpg",
+      "p09-05.jpg",
+      "p09-09.jpg"
+    ],
+    "desc": "Identidade e símbolo da marca.",
+    "kind": "Identidade visual"
+  },
+  {
+    "title": "Mara Makeup",
+    "category": "branding",
+    "images": [
+      "p09-02.jpg",
+      "p09-08.jpg",
+      "p09-12.jpg"
+    ],
+    "desc": "Propostas de marca e monograma.",
+    "kind": "Identidade visual"
+  },
+  {
+    "title": "Monograma AN",
+    "category": "branding",
+    "images": [
+      "p09-04.jpg",
+      "p09-06.jpg",
+      "p09-10.jpg"
+    ],
+    "desc": "Estudos de monograma.",
+    "kind": "Identidade visual"
+  },
+  {
+    "title": "Dia do Trabalhador — SempApp",
+    "category": "campaign",
+    "images": [
+      "p10-01.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "São Valentim",
+    "category": "campaign",
+    "images": [
+      "p10-02.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "Amor é cuidar",
+    "category": "campaign",
+    "images": [
+      "p10-03.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "4 de Fevereiro",
+    "category": "campaign",
+    "images": [
+      "p10-04.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "Expo Cake Angola",
+    "category": "campaign",
+    "images": [
+      "p10-05.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "Conferência dos Confeiteiros",
+    "category": "campaign",
+    "images": [
+      "p10-06.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "Treinamento de Excel",
+    "category": "campaign",
+    "images": [
+      "p10-07.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "Lançamento SempApp",
+    "category": "campaign",
+    "images": [
+      "p10-08.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "Celebração de Contratos",
+    "category": "campaign",
+    "images": [
+      "p11-01.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "Kizomba Meets Urbankiz",
+    "category": "campaign",
+    "images": [
+      "p11-02.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "Desperte o Potencial",
+    "category": "campaign",
+    "images": [
+      "p11-03.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "Estratégias para Crescimento",
+    "category": "campaign",
+    "images": [
+      "p11-04.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "Marketing Digital",
+    "category": "campaign",
+    "images": [
+      "p11-05.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "Gala dos Visionários",
+    "category": "campaign",
+    "images": [
+      "p11-06.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "Metamorfose",
+    "category": "campaign",
+    "images": [
+      "p11-07.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  },
+  {
+    "title": "Curso Prático de Importação",
+    "category": "campaign",
+    "images": [
+      "p11-08.jpg"
+    ],
+    "desc": "Peça individual de campanha ou evento.",
+    "kind": "Campanha / evento"
+  }
+];
