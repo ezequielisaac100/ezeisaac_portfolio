@@ -99,9 +99,7 @@ window.PORTFOLIO_PROJECTS = [
     "title": "Ezeisaac — assinatura visual",
     "category": "branding",
     "images": [
-      "p09-01.jpg",
-      "p09-07.jpg",
-      "p09-11.jpg"
+      "logo-ezeisaac.jpg"
     ],
     "desc": "Explorações da assinatura visual.",
     "kind": "Identidade visual"
@@ -110,9 +108,7 @@ window.PORTFOLIO_PROJECTS = [
     "title": "Gallo Business",
     "category": "branding",
     "images": [
-      "p09-03.jpg",
-      "p09-05.jpg",
-      "p09-09.jpg"
+      "logo-gallo.jpg"
     ],
     "desc": "Identidade e símbolo da marca.",
     "kind": "Identidade visual"
@@ -121,9 +117,7 @@ window.PORTFOLIO_PROJECTS = [
     "title": "Mara Makeup",
     "category": "branding",
     "images": [
-      "p09-02.jpg",
-      "p09-08.jpg",
-      "p09-12.jpg"
+      "logo-mara.jpg"
     ],
     "desc": "Propostas de marca e monograma.",
     "kind": "Identidade visual"
@@ -132,9 +126,7 @@ window.PORTFOLIO_PROJECTS = [
     "title": "Monograma AN",
     "category": "branding",
     "images": [
-      "p09-04.jpg",
-      "p09-06.jpg",
-      "p09-10.jpg"
+      "logo-an.jpg"
     ],
     "desc": "Estudos de monograma.",
     "kind": "Identidade visual"
