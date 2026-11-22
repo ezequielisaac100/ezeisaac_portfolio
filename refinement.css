@@ -1,0 +1,32 @@
+/* EZEISAAC — visual refinement / v3. Edit this file to customise the visual identity. */
+:root{--accent:#a58a68;--round:15px;--round-lg:22px}
+html{scroll-behavior:smooth}body{letter-spacing:-.012em}button,a{-webkit-tap-highlight-color:transparent}
+.site-header{backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px)}
+.identity-mark{border-radius:12px!important}.identity-text{letter-spacing:.11em!important}
+.hero h1,.intro h2,.work h2,.contact h2{letter-spacing:-.065em!important;line-height:1.035!important;font-weight:550!important}
+.hero h1 em,.intro h2 em,.work h2 em,.contact h2 em{font-weight:400!important}
+.hero-text>p,.intro p,.work-heading p,.contact>p{max-width:510px!important;line-height:1.75!important}
+.hero-photo{border-radius:var(--round-lg)!important;overflow:hidden}.hero-photo img{object-fit:cover}
+.btn-primary,.header-contact,.tour-button,.theme-toggle,.menu-toggle,.filters button,.slide-controls button{border-radius:var(--round)!important}
+.btn-primary,.header-contact,.tour-button{min-height:48px!important;padding:13px 19px!important;display:inline-flex;align-items:center;justify-content:center;gap:12px}
+.btn-primary svg,.header-contact svg,.text-link svg{width:17px;height:17px;flex-shrink:0}
+.filters{gap:8px!important;flex-wrap:wrap}.filters button{padding:11px 16px!important;font-weight:550!important}
+.project-grid{gap:34px 22px!important}.project-card{min-width:0;transition:transform .25s ease}
+.project-frame{border-radius:var(--round-lg)!important;overflow:hidden;isolation:isolate;box-shadow:0 9px 35px rgba(0,0,0,.065)}
+.slides{scroll-snap-type:x mandatory;overscroll-behavior-inline:contain;touch-action:pan-x pan-y;scrollbar-width:none}
+.slides::-webkit-scrollbar{display:none}.slide{scroll-snap-align:start;scroll-snap-stop:always}
+.cover-grid{gap:5px!important;padding:8px!important;box-sizing:border-box}.cover-grid img{border-radius:5px!important;object-fit:cover}
+.single-image{display:flex;align-items:center;justify-content:center}.single-image img{object-fit:contain!important;max-width:100%;max-height:100%}
+.slide-controls{display:flex!important;align-items:center!important;gap:14px!important;padding:11px 14px!important}
+.slide-controls button{width:36px!important;height:36px!important;display:grid;place-items:center}
+.slide-indicator{display:flex;align-items:center;gap:14px;flex:1;min-width:0;justify-content:center}
+.slide-counter{font-size:11px!important;letter-spacing:.09em;font-variant-numeric:tabular-nums;white-space:nowrap}
+.slide-track{width:72px;height:3px;border-radius:99px;background:currentColor;opacity:.28;overflow:hidden}
+.slide-fill{display:block;width:20%;height:100%;background:var(--accent);transition:width .25s ease}
+.project-details{padding:18px 4px 0!important}.project-details h3{letter-spacing:-.04em!important;font-weight:600!important}
+.project-details p{line-height:1.55!important;max-width:39ch}.project-kind,.project-index,.section-kicker,.overline{letter-spacing:.12em!important}
+.expertise span{border-radius:12px!important}.tour-box{border-radius:18px!important}
+.gallery-footer{margin-top:52px!important}.contact{border-radius:22px!important}
+:focus-visible{outline:2px solid var(--accent)!important;outline-offset:3px}
+@media(max-width:720px){.hero h1{font-size:clamp(48px,12vw,72px)!important}.hero-links{align-items:stretch!important}.btn-primary{justify-content:space-between!important}.project-grid{gap:30px!important}.project-frame{border-radius:18px!important}.project-details{padding-top:13px!important}.filters{gap:7px!important}.filters button{padding:10px 13px!important}.slide-track{width:55px}.site-header{padding-left:17px!important;padding-right:17px!important}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}

@@ -1,0 +1,28 @@
+
+/* V6 — editorial refinement */
+:root{--v6-ink:#181818;--v6-accent:#c7b59b}
+html{scroll-behavior:smooth}body{letter-spacing:-.01em}
+.site-header{backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.hero h1,.intro h2,.work h2,.contact h2,.tools-section h2{letter-spacing:-.065em;line-height:1.02}
+.hero h1 em,.intro h2 em,.work h2 em,.contact h2 em,.tools-section h2 em{font-weight:400}
+.btn-primary,.header-contact,.filters button,.assistant-launch,.assistant-suggestions button{border-radius:999px!important}
+.project-grid{gap:28px!important}
+.project-card{border-radius:20px!important;overflow:hidden;transition:transform .3s ease,box-shadow .3s ease}
+.project-card:hover{transform:translateY(-4px)}
+.project-card img{transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.project-card:hover img{transform:scale(1.025)}
+.tools-section{padding-top:100px;padding-bottom:110px}
+.tools-heading{display:grid;grid-template-columns:1.4fr .6fr;gap:40px;align-items:end;margin:30px 0 42px}
+.tools-heading h2{font-size:clamp(42px,5vw,78px);margin:0}
+.tools-heading p{max-width:360px;line-height:1.8;color:var(--muted,#737373)}
+.tool-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.tool-item{border:1px solid rgba(128,128,128,.22);border-radius:22px;padding:22px;display:flex;flex-direction:column;gap:15px;background:rgba(128,128,128,.025);transition:transform .25s ease,border-color .25s ease}
+.tool-item:hover{transform:translateY(-5px);border-color:rgba(128,128,128,.55)}
+.tool-visual{min-height:125px;display:flex;align-items:center;justify-content:center;border-radius:15px;background:linear-gradient(145deg,rgba(128,128,128,.07),transparent)}
+.tool-visual img{width:90px;height:90px;filter:drop-shadow(0 10px 9px rgba(0,0,0,.12));transition:transform .35s}
+.tool-item:hover img{transform:translateY(-5px) rotate(-3deg)}
+.tool-item strong{display:block;font-size:17px;margin-bottom:6px}
+.tool-item span{display:block;font-size:13px;line-height:1.5;color:var(--muted,#777)}
+@media(max-width:800px){.tools-heading{grid-template-columns:1fr}.tool-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tools-section{padding-top:60px;padding-bottom:65px}}
+@media(max-width:420px){.tool-item{padding:12px}.tool-visual{min-height:105px}.tool-visual img{width:74px;height:74px}.tool-item strong{font-size:15px}}
+@media(prefers-reduced-motion:reduce){.tool-item,.tool-item img,.project-card,.project-card img{transition:none!important}}
